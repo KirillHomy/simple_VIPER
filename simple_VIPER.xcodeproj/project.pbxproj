@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		7FB976D929F446AF00F59A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976D829F446AF00F59A3B /* AppDelegate.swift */; };
 		7FB976DB29F446AF00F59A3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976DA29F446AF00F59A3B /* SceneDelegate.swift */; };
-		7FB976DD29F446AF00F59A3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976DC29F446AF00F59A3B /* ViewController.swift */; };
-		7FB976E029F446AF00F59A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB976DE29F446AF00F59A3B /* Main.storyboard */; };
+		7FB976DD29F446AF00F59A3B /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976DC29F446AF00F59A3B /* WelcomViewController.swift */; };
+		7FB976E029F446AF00F59A3B /* Welcom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB976DE29F446AF00F59A3B /* Welcom.storyboard */; };
 		7FB976E229F446B000F59A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB976E129F446B000F59A3B /* Assets.xcassets */; };
 		7FB976E529F446B000F59A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB976E329F446B000F59A3B /* LaunchScreen.storyboard */; };
+		7FB976F029F448D000F59A3B /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976EF29F448D000F59A3B /* DateService.swift */; };
+		7FB976F229F448DC00F59A3B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976F129F448DC00F59A3B /* WeatherService.swift */; };
+		7FB976F729F44F4A00F59A3B /* WelcomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976F629F44F4A00F59A3B /* WelcomPresenter.swift */; };
+		7FB976F929F4500F00F59A3B /* WelcomRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976F829F4500F00F59A3B /* WelcomRouter.swift */; };
+		7FB976FB29F4509400F59A3B /* WelcomInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976FA29F4509400F59A3B /* WelcomInteractor.swift */; };
+		7FB976FD29F450DF00F59A3B /* WelcomModulBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976FC29F450DF00F59A3B /* WelcomModulBuilder.swift */; };
+		7FB9770429F45D9E00F59A3B /* ImageViewerModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB976FF29F45D9E00F59A3B /* ImageViewerModuleBuilder.swift */; };
+		7FB9770529F45D9E00F59A3B /* ImageViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB9770029F45D9E00F59A3B /* ImageViewerPresenter.swift */; };
+		7FB9770629F45D9E00F59A3B /* ImageViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB9770129F45D9E00F59A3B /* ImageViewerRouter.swift */; };
+		7FB9770729F45D9E00F59A3B /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB9770229F45D9E00F59A3B /* ImageViewerViewController.swift */; };
+		7FB9770829F45D9E00F59A3B /* ImageViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB9770329F45D9E00F59A3B /* ImageViewerInteractor.swift */; };
+		7FB9770A29F45DCE00F59A3B /* ImageViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB9770929F45DCE00F59A3B /* ImageViewer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FB976D529F446AF00F59A3B /* simple_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simple_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB976D829F446AF00F59A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FB976DA29F446AF00F59A3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FB976DC29F446AF00F59A3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FB976DF29F446AF00F59A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FB976DC29F446AF00F59A3B /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		7FB976DF29F446AF00F59A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Welcom.storyboard; sourceTree = "<group>"; };
 		7FB976E129F446B000F59A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB976E429F446B000F59A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB976E629F446B000F59A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB976EF29F448D000F59A3B /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		7FB976F129F448DC00F59A3B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		7FB976F629F44F4A00F59A3B /* WelcomPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomPresenter.swift; sourceTree = "<group>"; };
+		7FB976F829F4500F00F59A3B /* WelcomRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomRouter.swift; sourceTree = "<group>"; };
+		7FB976FA29F4509400F59A3B /* WelcomInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomInteractor.swift; sourceTree = "<group>"; };
+		7FB976FC29F450DF00F59A3B /* WelcomModulBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomModulBuilder.swift; sourceTree = "<group>"; };
+		7FB976FF29F45D9E00F59A3B /* ImageViewerModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerModuleBuilder.swift; sourceTree = "<group>"; };
+		7FB9770029F45D9E00F59A3B /* ImageViewerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerPresenter.swift; sourceTree = "<group>"; };
+		7FB9770129F45D9E00F59A3B /* ImageViewerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRouter.swift; sourceTree = "<group>"; };
+		7FB9770229F45D9E00F59A3B /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		7FB9770329F45D9E00F59A3B /* ImageViewerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerInteractor.swift; sourceTree = "<group>"; };
+		7FB9770929F45DCE00F59A3B /* ImageViewer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,75 @@
 		7FB976D729F446AF00F59A3B /* simple_VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				7FB976D829F446AF00F59A3B /* AppDelegate.swift */,
-				7FB976DA29F446AF00F59A3B /* SceneDelegate.swift */,
-				7FB976DC29F446AF00F59A3B /* ViewController.swift */,
-				7FB976DE29F446AF00F59A3B /* Main.storyboard */,
-				7FB976E129F446B000F59A3B /* Assets.xcassets */,
-				7FB976E329F446B000F59A3B /* LaunchScreen.storyboard */,
-				7FB976E629F446B000F59A3B /* Info.plist */,
+				7FB976EE29F448B700F59A3B /* API */,
+				7FB976EC29F4484300F59A3B /* Application */,
+				7FB976ED29F4487500F59A3B /* Resource */,
+				7FB976F429F44A4000F59A3B /* Screens */,
 			);
 			path = simple_VIPER;
+			sourceTree = "<group>";
+		};
+		7FB976EC29F4484300F59A3B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7FB976E329F446B000F59A3B /* LaunchScreen.storyboard */,
+				7FB976D829F446AF00F59A3B /* AppDelegate.swift */,
+				7FB976DA29F446AF00F59A3B /* SceneDelegate.swift */,
+				7FB976E629F446B000F59A3B /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7FB976ED29F4487500F59A3B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7FB976E129F446B000F59A3B /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7FB976EE29F448B700F59A3B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7FB976EF29F448D000F59A3B /* DateService.swift */,
+				7FB976F129F448DC00F59A3B /* WeatherService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7FB976F429F44A4000F59A3B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7FB976F529F44A6600F59A3B /* Welcom */,
+				7FB976FE29F458D200F59A3B /* ImageViewer */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7FB976F529F44A6600F59A3B /* Welcom */ = {
+			isa = PBXGroup;
+			children = (
+				7FB976DC29F446AF00F59A3B /* WelcomViewController.swift */,
+				7FB976DE29F446AF00F59A3B /* Welcom.storyboard */,
+				7FB976FA29F4509400F59A3B /* WelcomInteractor.swift */,
+				7FB976F629F44F4A00F59A3B /* WelcomPresenter.swift */,
+				7FB976F829F4500F00F59A3B /* WelcomRouter.swift */,
+				7FB976FC29F450DF00F59A3B /* WelcomModulBuilder.swift */,
+			);
+			path = Welcom;
+			sourceTree = "<group>";
+		};
+		7FB976FE29F458D200F59A3B /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				7FB9770229F45D9E00F59A3B /* ImageViewerViewController.swift */,
+				7FB9770929F45DCE00F59A3B /* ImageViewer.storyboard */,
+				7FB9770329F45D9E00F59A3B /* ImageViewerInteractor.swift */,
+				7FB9770029F45D9E00F59A3B /* ImageViewerPresenter.swift */,
+				7FB9770129F45D9E00F59A3B /* ImageViewerRouter.swift */,
+				7FB976FF29F45D9E00F59A3B /* ImageViewerModuleBuilder.swift */,
+			);
+			path = ImageViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +211,8 @@
 			files = (
 				7FB976E529F446B000F59A3B /* LaunchScreen.storyboard in Resources */,
 				7FB976E229F446B000F59A3B /* Assets.xcassets in Resources */,
-				7FB976E029F446AF00F59A3B /* Main.storyboard in Resources */,
+				7FB9770A29F45DCE00F59A3B /* ImageViewer.storyboard in Resources */,
+				7FB976E029F446AF00F59A3B /* Welcom.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +223,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB976DD29F446AF00F59A3B /* ViewController.swift in Sources */,
+				7FB9770629F45D9E00F59A3B /* ImageViewerRouter.swift in Sources */,
+				7FB976F229F448DC00F59A3B /* WeatherService.swift in Sources */,
+				7FB9770729F45D9E00F59A3B /* ImageViewerViewController.swift in Sources */,
+				7FB976F729F44F4A00F59A3B /* WelcomPresenter.swift in Sources */,
+				7FB976DD29F446AF00F59A3B /* WelcomViewController.swift in Sources */,
+				7FB9770529F45D9E00F59A3B /* ImageViewerPresenter.swift in Sources */,
+				7FB976FB29F4509400F59A3B /* WelcomInteractor.swift in Sources */,
+				7FB976F929F4500F00F59A3B /* WelcomRouter.swift in Sources */,
+				7FB976FD29F450DF00F59A3B /* WelcomModulBuilder.swift in Sources */,
 				7FB976D929F446AF00F59A3B /* AppDelegate.swift in Sources */,
 				7FB976DB29F446AF00F59A3B /* SceneDelegate.swift in Sources */,
+				7FB976F029F448D000F59A3B /* DateService.swift in Sources */,
+				7FB9770829F45D9E00F59A3B /* ImageViewerInteractor.swift in Sources */,
+				7FB9770429F45D9E00F59A3B /* ImageViewerModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FB976DE29F446AF00F59A3B /* Main.storyboard */ = {
+		7FB976DE29F446AF00F59A3B /* Welcom.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7FB976DF29F446AF00F59A3B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Welcom.storyboard;
 			sourceTree = "<group>";
 		};
 		7FB976E329F446B000F59A3B /* LaunchScreen.storyboard */ = {
@@ -289,10 +385,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CSS48FCS24;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = simple_VIPER/Info.plist;
+				INFOPLIST_FILE = simple_VIPER/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Welcom;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +413,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CSS48FCS24;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = simple_VIPER/Info.plist;
+				INFOPLIST_FILE = simple_VIPER/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Welcom;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
